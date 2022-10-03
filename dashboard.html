@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <script src="https://kit.fontawesome.com/8df4627fa1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="header">
+        <a href="0"><img src="./img/logo.png" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+                <li><a href="./index.html">Explore</a></li>
+                <li><a class="active" href="#">Problems</a></li>
+                <li><a href="#">Contests</a></li>
+                <li><a href="#">Discuss </a></li>
+                <li><a href="#">Interview</a></li>
+                <li><a href="#">Store</a></li>
+                <li><button class="normal">Premium</button></li>
+                <li><i class="fav-icon fa-solid fa-bell"></i></li>
+                <li><i class="fav-icon fa-solid fa-fire"></i></li>
+                <li><i class="fav-icon fa-solid fa-user"></i></li>
+            </ul>
+        </div>
+        <div id="mobile">
+
+            <a href="#"><i class="fav-icon fa-solid fa-user"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <div id="left">
+            <div id="profile">
+                <div class="details">
+                    <div>
+                        <img src="./img/h1.jfif" alt="">
+                    </div>
+
+                    <div>
+                        <h4 class="data">Ayush Varshney</h4>
+                        <p class="data">avtech02</p>
+                        <h6 class="data">Rank:123456</h6>
+                    </div>
+
+                </div>
+                <button class="normal-button">Edit profile</button>
+                <div class="location">
+                    <ul class="list">
+                        <li><i class=" fa-solid fa-location-dot"></i><span class="fav-icon">India</span></li>
+                        <li><i class="fa-solid fa-graduation-cap"></i><span class="fav-icon">MNNIT</span></li>
+                        <li><i class="fa-brands fa-github"></i><span><a class="links"
+                                    href="https://github.com/Avtech04/E-Cell-WebTask">github</a></span></li>
+                        <li><i class="fa-brands fa-linkedin"></i><span><a class="links"
+                                    href="https://www.linkedin.com/in/ayush-varshney-03b882237/">linkedin</a></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="stats">
+                <h3>Community Stats</h3>
+
+                <ul class="list">
+                    <li>
+                        <div><i class="fa-solid fa-eye" style=" color: blue;
+                            "></i><span>Views:0</span></div>
+                    </li>
+                    <li>
+                        <div><i class="fa-solid fa-house-chimney-user" style=" color: rgb(63, 156, 162);
+                            "></i><span>Solution:0</span></div>
+                    </li>
+                    <li>
+                        <div><i class="fa-solid fa-book" style=" color: rgb(24, 121, 57);
+                            "></i><span>Discuss:0</span></div>
+                    </li>
+                    <li>
+                        <div><i class="fa-solid fa-star" style=" color: rgb(222, 251, 0);
+                            "></i><span>Reputation:0</span></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="language">
+                <h3>Languages</h3>
+                <div class="c">
+                    <button class="small-btn">c++</button>
+                    <p>130 problem solved</p>
+                </div>
+            </div>
+            <div class="skill">
+                <h3>Skills</h3>
+                <ul>
+                    <li>
+                        <h6>Intermediate</h6>
+                        <p class="para-btn">Hash-table</p>
+                        <p class="para-btn">Binary Search</p>
+                        <p class="para-btn">Depth First Search</p>
+                    </li>
+                    <li>
+                        <h6>Fundamental</h6>
+                        <p class="para-btn">Array</p>
+                        <p class="para-btn">Strings</p>
+                        <p class="para-btn">Two pointers</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="right">
+
+            <div class="right-top">
+                <div class="rightTopDiv1">
+                    <h3>Solved Problems</h3>
+                    <br>
+                    <div><span>EASY</span><progress class="p1" value="40" max="100"></progress>
+                    </div>
+                    <div><span>MEDIUM</span> <progress class="p2" value="60" max="100"></progress></div>
+                    <div><span>HARD</span><progress class="p3" value="30" max="100"></progress>
+                    </div>
+                </div>
+                <div class="rightTopDiv2">
+                    <h3>Badges</h3>
+                    <p>0</p> <br><br>
+                    <h3>Locked Badge</h3>
+                    <p>SEP LeetCode Challenge</p>
+                </div>
+            </div>
+            <div class="right-down">
+
+                <div class="top-down">
+                    <div class="btns">
+                        <button><i class="fa-solid fa-book"></i><span class="fav-icon"> Recent AC</span></button>
+                        <button><i class="fa-solid fa-book"></i><span class="fav-icon">Solutions</span></button>
+                        <button><i class="fa-solid fa-comment"></i><span class="fav-icon">Discuss</span></button>
+                    </div>
+                    <div>
+                        <p>View Submisiions</p>
+                    </div>
+                </div>
+
+
+                <div class="table">
+                    <div class="t1"><a class="links"
+                            href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and
+                            Sell Stock IV</a> </div>
+                    <div class="t2"><a class="links"
+                            href="https://leetcode.com/problems/the-number-of-weak-characters-in-the-game/">The Number
+                            of Weak Characters in the Game</a></div>
+                    <div class="t1"><a class="links"
+                            href="https://leetcode.com/problems/pacific-atlantic-water-flow/">Pacific Atlantic Water
+                            Flow</a></div>
+                    <div class="t2"><a class="links" href="https://leetcode.com/problems/arranging-coins/">Arranging
+                            Coins</a></div>
+                    <div class="t1"><a class="links" href="https://leetcode.com/problems/clone-graph/">Clone Graph</a>
+                    </div>
+                    <div class="t2"><a class="links"
+                            href="https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/">Number of Dice
+                            Rolls With Target Sum</a></div>
+                    <div class="t1"><a class="links" href="https://leetcode.com/problems/max-area-of-island/">Max Area
+                            of Island</a></div>
+                    <div class="t2"><a class="links" href="https://leetcode.com/problems/binary-tree-cameras/">Binary
+                            Tree Cameras</a></div>
+                    <div class="t1"><a class="links"
+                            href="https://leetcode.com/problems/pacific-atlantic-water-flow/">Pacific Atlantic Water
+                            Flow</a></div>
+                    <div class="t2"><a class="links" href="https://leetcode.com/problems/arranging-coins/">Arranging
+                            Coins</a></div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
